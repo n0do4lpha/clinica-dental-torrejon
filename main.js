@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (animatedElements.length) {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) {
+                if (entry.isIntersecting || entry.boundingClientRect.top < window.innerHeight) {
                     entry.target.classList.add('visible');
                     observer.unobserve(entry.target);
                 }

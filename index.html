@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Dental | Tu dentista de confianza</title>
+    <meta name="description"
+        content="Clínica dental de confianza. Cuidamos tu sonrisa con los tratamientos odontológicos más avanzados. Implantes, ortodoncia, estética dental y más.">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦷</text></svg>">
+</head>
+
+<body>
+
+    <!-- Emergency bar -->
+    <div class="emergency-bar">
+        🦷 Urgencias dentales — Estamos aquí cuando más lo necesitas. <a href="javascript:void(0);">Llámanos ahora</a>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo"><span>CLÍNICA</span> DENTAL</a>
+            <nav>
+                <ul class="nav__list" id="navList">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Inicio</a></li>
+                    <li class="nav__item"><a href="equipo.html" class="nav__link">Equipo</a></li>
+                    <li class="nav__item">
+                        <a href="javascript:void(0);" class="nav__link">Tratamientos</a>
+                        <div class="nav__dropdown">
+                            <a href="servicios/implantes.html">Implantes dentales</a>
+                            <a href="servicios/ortodoncia.html">Ortodoncia</a>
+                            <a href="servicios/estetica.html">Estética dental</a>
+                            <a href="servicios/odontologia-general.html">Odontología general</a>
+                            <a href="servicios/cirugia.html">Cirugía oral y regenerativa</a>
+                            <a href="servicios/endodoncia.html">Endodoncia y periodoncia</a>
+                        </div>
+                    </li>
+                    <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+                </ul>
+                <a href="contacto.html" class="btn btn--primary btn--sm nav__cta">Pedir cita</a>
+            </nav>
+            <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__deco"></div>
+        <div class="container">
+            <div class="hero__content fade-in">
+                <span class="subtitle">Bienvenido a tu clínica dental</span>
+                <h1 class="hero__title">Tu sonrisa, nuestra <em>mejor obra</em></h1>
+                <p class="hero__text">Cuidamos tu sonrisa, tu rostro y tu bienestar. Combinamos tecnología digital de
+                    última
+                    generación con un equipo que te escucha y busca resultados fiables y estéticos desde la primera
+                    visita.
+                </p>
+                <div class="hero__actions">
+                    <a href="contacto.html" class="btn btn--primary btn--lg">Pedir cita gratuita</a>
+                    <a href="#servicios" class="btn btn--outline btn--lg">Nuestros tratamientos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section section--warm">
+        <div class="container">
+            <div class="stats">
+                <div class="fade-in fade-delay-1">
+                    <div class="stat__number">+15</div>
+                    <div class="stat__label">Años de experiencia</div>
+                </div>
+                <div class="fade-in fade-delay-2">
+                    <div class="stat__number">+5.000</div>
+                    <div class="stat__label">Pacientes satisfechos</div>
+                </div>
+                <div class="fade-in fade-delay-3">
+                    <div class="stat__number">+3.000</div>
+                    <div class="stat__label">Implantes colocados</div>
+                </div>
+                <div class="fade-in fade-delay-4">
+                    <div class="stat__number">4.9★</div>
+                    <div class="stat__label">Valoración en Google</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="servicios">
+        <div class="container">
+            <div class="section__header section__header--center fade-in">
+                <span class="subtitle">Nuestros tratamientos</span>
+                <h2>Excelencia que se nota en tu sonrisa</h2>
+                <hr class="divider divider--center">
+                <p>Planificación digital, protocolos claros y materiales de primera para que cada tratamiento sea
+                    seguro, predecible y duradero.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card fade-in fade-delay-1">
+                    <div class="service-card__img"
+                        style="background: linear-gradient(135deg, #e8ddd0, #d9cdbf); height: 220px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 4rem;">🦷</span>
+                    </div>
+                    <div class="service-card__body">
+                        <h3 class="service-card__title">Implantes dentales</h3>
+                        <p class="service-card__text">Recupera función y estética con implantes planificados
+                            digitalmente para un ajuste preciso y una cicatrización óptima.</p>
+                        <a href="servicios/implantes.html" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card fade-in fade-delay-2">
+                    <div class="service-card__img"
+                        style="background: linear-gradient(135deg, #d9cdbf, #c9b8a5); height: 220px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 4rem;">😁</span>
+                    </div>
+                    <div class="service-card__body">
+                        <h3 class="service-card__title">Ortodoncia</h3>
+                        <p class="service-card__text">Alineadores y brackets con planificación digital. Sonrisas más
+                            rectas con tratamientos cómodos y controlados.</p>
+                        <a href="servicios/ortodoncia.html" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card fade-in fade-delay-3">
+                    <div class="service-card__img"
+                        style="background: linear-gradient(135deg, #f3ede6, #e8ddd0); height: 220px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 4rem;">✨</span>
+                    </div>
+                    <div class="service-card__body">
+                        <h3 class="service-card__title">Estética dental</h3>
+                        <p class="service-card__text">Carillas, blanqueamiento y remodelado gingival para una sonrisa
+                            natural y proporcionada.</p>
+                        <a href="servicios/estetica.html" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card fade-in fade-delay-1">
+                    <div class="service-card__img"
+                        style="background: linear-gradient(135deg, #e0d6cb, #cfc2b4); height: 220px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 4rem;">🩺</span>
+                    </div>
+                    <div class="service-card__body">
+                        <h3 class="service-card__title">Odontología general</h3>
+                        <p class="service-card__text">Revisiones, limpiezas, empastes y cuidado preventivo para mantener
+                            tu salud bucodental al día.</p>
+                        <a href="servicios/odontologia-general.html" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card fade-in fade-delay-2">
+                    <div class="service-card__img"
+                        style="background: linear-gradient(135deg, #c9b8a5, #b8a592); height: 220px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 4rem;">🔬</span>
+                    </div>
+                    <div class="service-card__body">
+                        <h3 class="service-card__title">Cirugía oral y regenerativa</h3>
+                        <p class="service-card__text">Elevación de seno, injertos óseos y regeneración guiada para
+                            asegurar resultados estables.</p>
+                        <a href="servicios/cirugia.html" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card fade-in fade-delay-3">
+                    <div class="service-card__img"
+                        style="background: linear-gradient(135deg, #d4c7b9, #c5b5a4); height: 220px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 4rem;">💎</span>
+                    </div>
+                    <div class="service-card__body">
+                        <h3 class="service-card__title">Endodoncia y periodoncia</h3>
+                        <p class="service-card__text">Cuidamos el interior de tus dientes y la salud de tus encías para
+                            salvar las piezas siempre que sea posible.</p>
+                        <a href="servicios/endodoncia.html" class="service-card__link">
+                            Más información
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Experience -->
+    <section class="section section--warm">
+        <div class="container">
+            <div class="split">
+                <div class="split__img fade-in-left">
+                    <div
+                        style="width: 100%; height: 400px; background: linear-gradient(135deg, #c9a96e33, #72635a22); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 6rem;">
+                        🏥</div>
+                </div>
+                <div class="split__content fade-in-right">
+                    <span class="subtitle">Una experiencia diferente</span>
+                    <h2>Tu clínica dental de confianza</h2>
+                    <hr class="divider">
+                    <p>Trabajamos para que tu experiencia en el dentista sea <strong>fácil, transparente y sin
+                            sorpresas</strong>.</p>
+                    <p>Nuestro equipo está formado en las últimas técnicas de implantología, ortodoncia y odontología
+                        conservadora, y contamos con diagnóstico por imagen y flujo digital para diseñar tratamientos a
+                        tu medida.</p>
+                    <p>Creemos en el trato humano, explicamos cada paso, resolvemos tus dudas y te acompañamos antes,
+                        durante y después del tratamiento.</p>
+                    <a href="equipo.html" class="btn btn--outline" style="margin-top: 1rem;">Conoce al equipo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency -->
+    <section class="section section--dark">
+        <div class="container">
+            <div class="split split--reverse">
+                <div class="split__content fade-in-left" style="direction: ltr;">
+                    <span class="subtitle" style="color: var(--color-gold);">Urgencias dentales</span>
+                    <h2>Estamos aquí cuando más lo necesitas</h2>
+                    <hr class="divider">
+                    <p style="color: rgba(255,255,255,0.7);">Aquí cuidamos de ti, también cuando más lo necesitas.
+                        Atendemos urgencias porque sabemos que tu salud bucodental a veces no puede esperar.</p>
+                    <p style="color: rgba(255,255,255,0.7);">Si tienes dolor intenso, inflamación, un diente roto o
+                        sangrado, <strong style="color:#fff;">llámanos</strong>. Trabajamos con prioridad de atención,
+                        diagnóstico rápido y soluciones inmediatas.</p>
+                    <a href="javascript:void(0);" class="btn btn--gold btn--lg" style="margin-top: 1rem;">
+                        📞 Llámanos ahora
+                    </a>
+                </div>
+                <div class="split__img fade-in-right" style="direction: ltr;">
+                    <div
+                        style="width: 100%; height: 400px; background: linear-gradient(135deg, #c9a96e33, #ffffff11); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 6rem;">
+                        🚑</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header section__header--center fade-in">
+                <span class="subtitle">Opiniones de pacientes</span>
+                <h2>Tu clínica dental de confianza</h2>
+                <hr class="divider divider--center">
+                <p>Siempre a tu lado — lo dicen nuestros pacientes</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in fade-delay-1">
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">"Son muy profesionales y el trato fue maravilloso, el personal muy
+                        atento y la doctora explica todo con claridad. La recomiendo al 100%."</p>
+                    <p class="testimonial-card__author">Stela V.</p>
+                    <p class="testimonial-card__source">Google Reviews</p>
+                </div>
+                <div class="testimonial-card fade-in fade-delay-2">
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">"Excelente atención. El personal es amable, las instalaciones
+                        modernas y el tratamiento fue rápido. Muy buena relación calidad-precio."</p>
+                    <p class="testimonial-card__author">Jan P.</p>
+                    <p class="testimonial-card__source">Google Reviews</p>
+                </div>
+                <div class="testimonial-card fade-in fade-delay-3">
+                    <div class="testimonial-card__stars">★★★★★</div>
+                    <p class="testimonial-card__text">"Las mejores manos en las que me podría haber puesto. El mejor
+                        equipo sin duda, puedes ponerte en sus manos con total confianza."</p>
+                    <p class="testimonial-card__author">Bily T.</p>
+                    <p class="testimonial-card__source">Google Reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financing CTA -->
+    <section class="section">
+        <div class="container">
+            <div class="cta-banner fade-in">
+                <div class="cta-banner__deco"></div>
+                <span class="subtitle" style="color: var(--color-gold-light);">Financiación</span>
+                <h2>Desde 299 € para que nada frene tu sonrisa</h2>
+                <p>Te lo ponemos fácil. Estudiamos tu caso y te damos un plan claro para que puedas financiar tu
+                    tratamiento con cuotas cómodas y sin sorpresas.</p>
+                <a href="contacto.html" class="btn btn--white btn--lg">Contacta con nosotros</a>
+                <p style="font-size: 0.72rem; margin-top: 1.5rem; color: rgba(255,255,255,0.5);">Financiación gestionada
+                    por entidad colaboradora. Sujeto a aprobación.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="section section--warm">
+        <div class="container">
+            <div class="section__header fade-in">
+                <span class="subtitle">Nuestro blog</span>
+                <h2>Descubre las últimas novedades</h2>
+                <hr class="divider">
+                <p>Consejos, novedades, noticias de odontología y mucho más...</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card fade-in fade-delay-1">
+                    <div class="blog-card__img"
+                        style="background: linear-gradient(135deg, #e8ddd0, #d9cdbf); height: 200px; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        📖</div>
+                    <div class="blog-card__body">
+                        <p class="blog-card__date">10 de noviembre de 2025</p>
+                        <h3 class="blog-card__title"><a href="blog.html">¿Qué tipos de ortodoncia existen?</a></h3>
+                        <p class="blog-card__excerpt">Te explicamos los principales tipos de ortodoncia y cómo cada uno
+                            se adapta a tus necesidades.</p>
+                        <a href="blog.html" class="service-card__link">Leer más <svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="blog-card fade-in fade-delay-2">
+                    <div class="blog-card__img"
+                        style="background: linear-gradient(135deg, #d9cdbf, #c9b8a5); height: 200px; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🦷</div>
+                    <div class="blog-card__body">
+                        <p class="blog-card__date">1 de noviembre de 2025</p>
+                        <h3 class="blog-card__title"><a href="blog.html">¿Cuándo quitar las muelas de juicio?</a></h3>
+                        <p class="blog-card__excerpt">Te explicamos cuándo es necesario extraer las muelas del juicio y
+                            cómo es la cirugía.</p>
+                        <a href="blog.html" class="service-card__link">Leer más <svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="blog-card fade-in fade-delay-3">
+                    <div class="blog-card__img"
+                        style="background: linear-gradient(135deg, #f3ede6, #e8ddd0); height: 200px; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        ❓</div>
+                    <div class="blog-card__body">
+                        <p class="blog-card__date">18 de noviembre de 2020</p>
+                        <h3 class="blog-card__title"><a href="blog.html">Las 5 preguntas más frecuentes sobre
+                                implantes</a></h3>
+                        <p class="blog-card__excerpt">Respondemos de manera clara a las preguntas más frecuentes que
+                            nuestros pacientes nos hacen.</p>
+                        <a href="blog.html" class="service-card__link">Leer más <svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <div class="footer__logo"><span>CLÍNICA</span> DENTAL</div>
+                    <p class="footer__desc">Cuidamos tu sonrisa, tu rostro y tu bienestar. Tu clínica dental de
+                        confianza con más de 15 años de experiencia.</p>
+                    <div class="footer__social">
+                        <a href="javascript:void(0);" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0);" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer__title">Tratamientos</h4>
+                    <ul class="footer__links">
+                        <li><a href="servicios/implantes.html">Implantes dentales</a></li>
+                        <li><a href="servicios/ortodoncia.html">Ortodoncia</a></li>
+                        <li><a href="servicios/estetica.html">Estética dental</a></li>
+                        <li><a href="servicios/odontologia-general.html">Odontología general</a></li>
+                        <li><a href="servicios/cirugia.html">Cirugía oral</a></li>
+                        <li><a href="servicios/endodoncia.html">Endodoncia</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__title">Clínica</h4>
+                    <ul class="footer__links">
+                        <li><a href="equipo.html">Nuestro equipo</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="javascript:void(0);">Aviso legal</a></li>
+                        <li><a href="javascript:void(0);">Política de privacidad</a></li>
+                        <li><a href="javascript:void(0);">Política de cookies</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__title">Contacto</h4>
+                    <ul class="footer__links">
+                        <li>📍 Av. de la Constitución 131<br>28850 Torrejón de Ardoz (Madrid)</li>
+                        <li style="margin-top: 0.5rem;"><a href="javascript:void(0);">📞 911 094 868</a></li>
+                        <li><a href="javascript:void(0);">📱 685 787 305</a></li>
+                        <li style="margin-top: 0.5rem;">Lun-Vie: 9:00 — 20:00<br>Sábado: 10:00 — 14:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 Clínica Dental. Todos los derechos reservados.</p>
+                <p>Diseñado con ❤️ para tu sonrisa</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp -->
+    <a href="javascript:void(0);" class="whatsapp-btn" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <!-- Back to top -->
+    <a href="javascript:void(0);" class="back-to-top" aria-label="Volver arriba">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </a>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

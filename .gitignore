@@ -1,0 +1,20 @@
+# Local dependencies
+node_modules/
+.DS_Store
+
+# Vercel internal
+.vercel/
+
+# Project-specific exclusions
+Referencia
+.agents/
+scripts/
+requirements.txt
+deactivate_links.py
+directivas/
+/tmp/
+
+# Sensitive data
+.env
+.env.local
+.env.*.local
